@@ -1,0 +1,6 @@
+AddEventHandler("playerSpawned", function(spawn)
+TriggerEvent("chatMessage", "", { 255, 0, 0 }, "Welcome to West California ESX Beta Server")
+TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Join the teamspeak 134.255.231.69:9031")
+TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Join the Discord https://discord.gg/A45DdRQ")
+TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Test")
+end)
