@@ -1,6 +1,10 @@
+firstSpawn = true
+
 AddEventHandler("playerSpawned", function(spawn)
-TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Enter here")
-TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Enter here")
-TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Enter here")
-TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Enter here")
+    if(firstSpawn) then
+        TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Welcome to West California RP!")
+		TriggerEvent("chatMessage", "", { 0, 0, 0 }, "TeamSpeak: 134.255.231.69:9031")
+		TriggerEvent("chatMessage", "", { 0, 0, 0 }, "Discord: https://discord.gg/6cKhEAj")
+        firstSpawn = false
+    end
 end)
